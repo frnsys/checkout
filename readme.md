@@ -1,0 +1,4 @@
+- run `python server.py`
+- visit the host ip on your phone
+- hit `Choose File` to take a photo
+- hit `Lookup` and it will return the closest image, with distance
