@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>checkout</title>
+  <style>
+    html {
+        font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <p><input type="file" name="photo" accept="image/*" capture="camera" /></p>
+        <p><input type="submit" value="Lookup" /></p>
+    </form>
+    <p>{{ result }} ({{ distance }})</p>
+</body>
+</html>
+
